@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.nav-logo h3{
+    color: #00194A;
+    font-size: 26px;
+    font-family: 'Libre Baskerville', serif !important;
+}
+
+.nav-logo h3 span{
+    color: #4F79F9;
+}
+
+.nav-list{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+.nav-list li{
+    color: #00194A;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.btn-contact{
+    padding: 14px 24px;
+    font-size: 16px;
+    border: none;
+    background-color: #4F79F9;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+

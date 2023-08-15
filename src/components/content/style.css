@@ -1,0 +1,264 @@
+/* style for service start */
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  padding: 60px 0;
+}
+
+.service-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.service-text p {
+  color: #4f79f9;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.service-text h1 {
+  color: #00194a;
+  font-size: 32px;
+  width: 80%;
+  font-weight: 800;
+}
+
+.service-list {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 100%;
+}
+
+.service-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  box-shadow: 0 0 10px rgb(0, 25, 74, 0.1);
+  border-radius: 10px;
+  padding: 10px 35px;
+  cursor: pointer;
+}
+
+.active {
+  height: 430px;
+  box-shadow: 0px 0px 20px rgb(0, 25, 74, 0.2);
+}
+
+.service-icon {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.service-icon img {
+  width: 100%;
+}
+
+.service-content-text h5 {
+  color: #00194a;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.service-content-text p {
+  font-size: 14px;
+  color: #00194a;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  line-height: 20px;
+  margin-bottom: 28px;
+}
+
+.btn-read {
+  font-size: 14px;
+  color: #fff;
+  background-color: #4f79f9;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* style for service end */
+
+/* style for homebottom start */
+.home-bottom {
+  margin-top: -10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 100px;
+}
+
+.home-bottom-list {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgb(0, 25, 74, 0.1);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.home-bottom-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 30px;
+}
+
+.home-bottom-icon {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.home-bottom-icon img {
+  width: 100%;
+}
+
+.home-bottom-text h4 {
+  font-size: 18px;
+  color: #00194a;
+  margin-bottom: 5px;
+}
+
+.home-bottom-text p {
+  font-size: 14px;
+  color: #00194a;
+}
+
+/* style home-bottom end */
+
+/* style about start */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 60px 0;
+  min-height: 100vh;
+}
+
+.about-left {
+  width: 50%;
+  padding-right: 80px;
+}
+
+.about-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about-title img {
+  max-width: 30px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.about-title h4 {
+  color: #4f79f9;
+  font-size: 22px;
+}
+
+.about-right {
+  width: 50%;
+  padding-left: 80px;
+  position: relative;
+}
+.about-text h3 {
+  color: #00194a;
+  font-size: 38px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: #00194a;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.02rem;
+}
+
+.about-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.about-content i {
+  font-size: 25px;
+  color: #4f79f9;
+  margin-right: 5px;
+}
+
+.about-content p {
+  color: #00194a;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.about-btn {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-more {
+  margin-left: 40px;
+  border: 1px solid rgb(0, 25, 74, 0.2);
+  padding: 14px 24px;
+  border-radius: 8px;
+  color: #4f79f9;
+  font-weight: 700;
+}
+
+.vidabout {
+  opacity: 1 !important;
+  border-radius: 0px !important;
+}
+
+.kotak1 {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+
+  background-color: #8cdfd3;
+  z-index: -1;
+  top: -10%;
+  right: -7%;
+}
+.kotak2 {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+
+  background-color: #A5BEE4;
+  z-index: -1;
+  bottom: -10%;
+  left: 7%;
+}
